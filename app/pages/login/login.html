@@ -1,0 +1,29 @@
+<ScrollView>
+    <StackLayout class="textcenter" modal-dialog-host>
+        <Image src="~/images/heading.png" class="appLogo" horizontalAlignment="center"></Image>
+        <Label text="An awesome social network community" class="textWhite"></Label>
+        <Label text="for finding au pair for host families" class="textWhite"></Label>
+        <Image src="~/images/dp.png" stretch="none" horizontalAlignment="center" class="dp"></Image>
+        <Label class="text-name" text="Nick Bailey"></Label>
+        <Label class="text-yellow" text="32"></Label>
+        <Label class="text-yellow" text="San Francisco"></Label>
+            <Button text="Sign Up" class="sign-button" (tap)="submit()"></Button>
+            <Button text="Login In" class="login-button" (tap)="login(true)"></Button>
+    </StackLayout>
+</ScrollView>
+<!--
+<ScrollView>
+    <StackLayout class="textcenter">
+        <GridLayout columns="auto, *" rows="auto,auto,auto,auto,auto,auto,auto">
+            <Image  src="~/images/heading.png" row="1" colSpan="3" rowSpan="1" class="appLogo" horizontalAlignment="center"></Image>
+            <Label row="2" colSpan="3" rowSpan="1" text="An awesome social network community" class="textWhite"></Label>
+            <Label row="3" colSpan="3" text="for finding au pair for host families" class="textWhite"></Label>
+            <Image row="4" colSpan="3" src="~/images/dp.png" stretch="none" horizontalAlignment="center" class="dp"></Image>
+            <Label row="5" colSpan="3" class="text-name" text="Nick Bailey"></Label>
+            <Label row="6" colSpan="3" class="text-yellow" text="32"></Label>
+            <Label row="7" colSpan="3" class="text-yellow" text="San Francisco"></Label>
+        </GridLayout>
+        <Button text="Sign Up" class="sign-button" (tap)="submit()"></Button>
+        <Button  text="Login In" class="login-button"></Button>
+    </StackLayout>
+</ScrollView>-->

@@ -1,0 +1,15 @@
+﻿Page {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 15;
+}
+TextField {
+    padding: 10;
+    font-size: 13;
+}
+
+.font-awesome {
+    font-family: "FontAwesome";
+}
